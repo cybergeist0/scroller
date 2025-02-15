@@ -1,5 +1,5 @@
 # Valentine's Scroller
-A valentine's day-themed vertical scroller built with vanilla JavaScript
+A valentine's day-themed vertical scroller built with vanilla JavaScript.
 ## Movement
 Press the left and right arrow keys to accelerate in the left and right directions, respectively.
 ## Objective
