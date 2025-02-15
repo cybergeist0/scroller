@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Valentine's Scroller</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffe6e6, #fff0f5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      position: relative;
+    }
+    canvas {
+      background: #fff;
+      border: 2px solid #ff66a3;
+      box-shadow: 0 0 20px rgba(255, 102, 163, 0.5);
+    }
+    #restartButton {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 15px 30px;
+      font-size: 18px;
+      background: #ff66a3;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="400" height="600"></canvas>
+  <button id="restartButton">Restart</button>
+  <script src="game.js"></script>
+</body>
+</html>
